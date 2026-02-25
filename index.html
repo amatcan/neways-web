@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Neways — Building tomorrow's technology today. Enterprise software, cloud infrastructure, and AI-powered solutions." />
+  <title>Neways | Technology Reimagined</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">Neways</a>
+      <ul class="nav__list" id="nav-list">
+        <li><a href="#services" class="nav__link">Services</a></li>
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#work" class="nav__link">Work</a></li>
+        <li><a href="#team" class="nav__link">Team</a></li>
+        <li><a href="#contact" class="nav__link nav__link--cta">Get in Touch</a></li>
+      </ul>
+      <button class="nav__toggle" id="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="hero__bg"></div>
+      <div class="container hero__content">
+        <span class="hero__eyebrow">Next-generation technology</span>
+        <h1 class="hero__title">Building the<br /><span class="gradient-text">Future of Tech</span></h1>
+        <p class="hero__subtitle">
+          We design, build, and scale digital products that transform how businesses operate.
+          From cloud infrastructure to AI-powered solutions — we make it possible.
+        </p>
+        <div class="hero__actions">
+          <a href="#services" class="btn btn--primary">Explore Services</a>
+          <a href="#work" class="btn btn--ghost">View Our Work</a>
+        </div>
+        <div class="hero__stats">
+          <div class="stat">
+            <span class="stat__value">200+</span>
+            <span class="stat__label">Projects Delivered</span>
+          </div>
+          <div class="stat">
+            <span class="stat__value">98%</span>
+            <span class="stat__label">Client Satisfaction</span>
+          </div>
+          <div class="stat">
+            <span class="stat__value">50+</span>
+            <span class="stat__label">Expert Engineers</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__eyebrow">What we do</span>
+          <h2 class="section__title">Services Built for Scale</h2>
+          <p class="section__subtitle">
+            End-to-end technology services that accelerate growth and reduce complexity.
+          </p>
+        </div>
+        <div class="services__grid">
+          <div class="service-card" data-animate>
+            <div class="service-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+            </div>
+            <h3 class="service-card__title">Software Development</h3>
+            <p class="service-card__text">
+              Custom web and mobile applications crafted with modern frameworks. Scalable architectures designed to grow with your business.
+            </p>
+            <ul class="service-card__list">
+              <li>React / Next.js / Node.js</li>
+              <li>Mobile (iOS &amp; Android)</li>
+              <li>API design &amp; integration</li>
+            </ul>
+          </div>
+          <div class="service-card" data-animate>
+            <div class="service-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+            </div>
+            <h3 class="service-card__title">Cloud Infrastructure</h3>
+            <p class="service-card__text">
+              Resilient, cost-efficient cloud architectures on AWS, GCP, and Azure. DevOps pipelines that ship faster and break less.
+            </p>
+            <ul class="service-card__list">
+              <li>Cloud migration &amp; architecture</li>
+              <li>Kubernetes &amp; container orchestration</li>
+              <li>CI/CD &amp; DevOps automation</li>
+            </ul>
+          </div>
+          <div class="service-card" data-animate>
+            <div class="service-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 2v2M12 20v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M2 12h2M20 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+            </div>
+            <h3 class="service-card__title">AI &amp; Data Solutions</h3>
+            <p class="service-card__text">
+              Machine learning pipelines, predictive analytics, and AI integration that turn raw data into strategic advantage.
+            </p>
+            <ul class="service-card__list">
+              <li>ML model development</li>
+              <li>Data engineering &amp; pipelines</li>
+              <li>LLM integration &amp; fine-tuning</li>
+            </ul>
+          </div>
+          <div class="service-card" data-animate>
+            <div class="service-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h3 class="service-card__title">Cybersecurity</h3>
+            <p class="service-card__text">
+              Proactive security audits, penetration testing, and compliance frameworks to protect your most critical assets.
+            </p>
+            <ul class="service-card__list">
+              <li>Security audits &amp; pen testing</li>
+              <li>SOC 2 / ISO 27001 readiness</li>
+              <li>Incident response planning</li>
+            </ul>
+          </div>
+          <div class="service-card" data-animate>
+            <div class="service-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+            </div>
+            <h3 class="service-card__title">Digital Transformation</h3>
+            <p class="service-card__text">
+              Strategic consulting to modernize legacy systems, streamline operations, and align technology with business goals.
+            </p>
+            <ul class="service-card__list">
+              <li>Tech strategy &amp; roadmapping</li>
+              <li>Legacy modernization</li>
+              <li>Process automation</li>
+            </ul>
+          </div>
+          <div class="service-card" data-animate>
+            <div class="service-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            </div>
+            <h3 class="service-card__title">UX / Product Design</h3>
+            <p class="service-card__text">
+              User-centered design that converts. From research and wireframes to high-fidelity prototypes and design systems.
+            </p>
+            <ul class="service-card__list">
+              <li>UX research &amp; usability testing</li>
+              <li>Design systems &amp; style guides</li>
+              <li>Figma prototyping</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section section--dark" id="about">
+      <div class="container about__grid">
+        <div class="about__text" data-animate>
+          <span class="section__eyebrow">Who we are</span>
+          <h2 class="section__title">Technology That Moves Business Forward</h2>
+          <p>
+            Founded in 2015, Neways is a technology company built by engineers who refused to accept slow, brittle software as the norm. We partner with startups and enterprises alike to deliver reliable, elegant solutions at every layer of the stack.
+          </p>
+          <p>
+            Our teams combine deep technical expertise with a strong product mindset — meaning we don't just write code, we solve problems that matter.
+          </p>
+          <div class="about__pillars">
+            <div class="pillar">
+              <strong>Ownership</strong>
+              <span>We treat every project as if it were our own product.</span>
+            </div>
+            <div class="pillar">
+              <strong>Transparency</strong>
+              <span>No surprises — you always know where things stand.</span>
+            </div>
+            <div class="pillar">
+              <strong>Quality</strong>
+              <span>We ship clean code, thorough tests, and clear documentation.</span>
+            </div>
+          </div>
+        </div>
+        <div class="about__visual" data-animate>
+          <div class="about__card about__card--1">
+            <span class="about__card-number">01</span>
+            <p>Discover &amp; Define</p>
+          </div>
+          <div class="about__card about__card--2">
+            <span class="about__card-number">02</span>
+            <p>Design &amp; Architect</p>
+          </div>
+          <div class="about__card about__card--3">
+            <span class="about__card-number">03</span>
+            <p>Build &amp; Test</p>
+          </div>
+          <div class="about__card about__card--4">
+            <span class="about__card-number">04</span>
+            <p>Deploy &amp; Scale</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work / Case Studies -->
+    <section class="section" id="work">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__eyebrow">Case studies</span>
+          <h2 class="section__title">Work We're Proud Of</h2>
+          <p class="section__subtitle">A selection of recent projects across industries.</p>
+        </div>
+        <div class="work__grid">
+          <div class="work-card work-card--featured" data-animate>
+            <div class="work-card__badge">Cloud Migration</div>
+            <h3 class="work-card__title">Scaling a FinTech Platform to 10M Users</h3>
+            <p class="work-card__text">Migrated a monolithic banking application to a microservices architecture on AWS, cutting infrastructure costs by 40% while supporting 10× user growth.</p>
+            <div class="work-card__tags">
+              <span>AWS</span><span>Kubernetes</span><span>Node.js</span><span>PostgreSQL</span>
+            </div>
+          </div>
+          <div class="work-card" data-animate>
+            <div class="work-card__badge">AI &amp; ML</div>
+            <h3 class="work-card__title">Predictive Maintenance for Industrial IoT</h3>
+            <p class="work-card__text">Built an ML pipeline that reduced unplanned downtime by 60% for a global manufacturing client by predicting equipment failures 72 hours in advance.</p>
+            <div class="work-card__tags">
+              <span>Python</span><span>TensorFlow</span><span>GCP</span>
+            </div>
+          </div>
+          <div class="work-card" data-animate>
+            <div class="work-card__badge">Product Design</div>
+            <h3 class="work-card__title">Redesigning a Healthcare Portal</h3>
+            <p class="work-card__text">End-to-end redesign of a patient-facing portal used by 500k monthly active users, improving task completion rates by 35%.</p>
+            <div class="work-card__tags">
+              <span>React</span><span>Figma</span><span>WCAG 2.1</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team -->
+    <section class="section section--alt" id="team">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__eyebrow">Our people</span>
+          <h2 class="section__title">Meet the Team</h2>
+          <p class="section__subtitle">Experienced engineers and designers with a shared passion for craft.</p>
+        </div>
+        <div class="team__grid">
+          <div class="team-card" data-animate>
+            <div class="team-card__avatar" style="background: linear-gradient(135deg, #6366f1, #8b5cf6)">AK</div>
+            <h3 class="team-card__name">Alex Kim</h3>
+            <span class="team-card__role">CEO &amp; Co-Founder</span>
+            <p class="team-card__bio">15 years building enterprise software. Former engineering lead at a Fortune 500 cloud provider.</p>
+          </div>
+          <div class="team-card" data-animate>
+            <div class="team-card__avatar" style="background: linear-gradient(135deg, #0ea5e9, #6366f1)">SR</div>
+            <h3 class="team-card__name">Sofia Reyes</h3>
+            <span class="team-card__role">CTO &amp; Co-Founder</span>
+            <p class="team-card__bio">Distributed systems expert. PhD in Computer Science, previously led platform engineering at a major tech startup.</p>
+          </div>
+          <div class="team-card" data-animate>
+            <div class="team-card__avatar" style="background: linear-gradient(135deg, #10b981, #0ea5e9)">MP</div>
+            <h3 class="team-card__name">Marcus Patel</h3>
+            <span class="team-card__role">Head of AI &amp; Data</span>
+            <p class="team-card__bio">Machine learning practitioner with deep experience in NLP, computer vision, and production ML systems at scale.</p>
+          </div>
+          <div class="team-card" data-animate>
+            <div class="team-card__avatar" style="background: linear-gradient(135deg, #f59e0b, #ef4444)">LN</div>
+            <h3 class="team-card__name">Laura Ngo</h3>
+            <span class="team-card__role">Head of Design</span>
+            <p class="team-card__bio">Product designer with a background in cognitive psychology. Obsessed with creating interfaces that feel inevitable.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trusted By -->
+    <section class="section logos-section">
+      <div class="container">
+        <p class="logos-section__label">Trusted by teams at</p>
+        <div class="logos-section__track">
+          <span>Acme Corp</span>
+          <span>Vertex Health</span>
+          <span>Pinnacle Finance</span>
+          <span>NovaTech</span>
+          <span>Orion Systems</span>
+          <span>ClearData</span>
+          <span>Acme Corp</span>
+          <span>Vertex Health</span>
+          <span>Pinnacle Finance</span>
+          <span>NovaTech</span>
+          <span>Orion Systems</span>
+          <span>ClearData</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section--dark contact" id="contact">
+      <div class="container contact__inner">
+        <div class="contact__text" data-animate>
+          <span class="section__eyebrow">Let's talk</span>
+          <h2 class="section__title">Start Your Next Project with Neways</h2>
+          <p>Whether you have a detailed brief or just an idea, we'd love to hear from you. Our team will get back to you within one business day.</p>
+          <ul class="contact__details">
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              hello@neways.io
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.64 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.6a16 16 0 0 0 5.45 5.45l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              +1 (415) 555-0182
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              San Francisco, CA
+            </li>
+          </ul>
+        </div>
+        <form class="contact__form" id="contact-form" data-animate novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Jane Smith" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="jane@example.com" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <select id="subject" name="subject">
+              <option value="">Select a topic…</option>
+              <option>Software Development</option>
+              <option>Cloud Infrastructure</option>
+              <option>AI &amp; Data</option>
+              <option>Cybersecurity</option>
+              <option>Digital Transformation</option>
+              <option>UX / Product Design</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell us about your project…" required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">Send Message</button>
+          <p class="form__success" id="form-success" hidden>Thanks! We'll be in touch within one business day.</p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#" class="nav__logo">Neways</a>
+        <p>Building tomorrow's technology, today.</p>
+      </div>
+      <div class="footer__links">
+        <div class="footer__col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Software Development</a></li>
+            <li><a href="#services">Cloud Infrastructure</a></li>
+            <li><a href="#services">AI &amp; Data</a></li>
+            <li><a href="#services">Cybersecurity</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#work">Case Studies</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">GitHub</a></li>
+            <li><a href="#">Twitter / X</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <p>&copy; 2026 Neways. All rights reserved.</p>
+        <p><a href="#">Privacy Policy</a> · <a href="#">Terms of Service</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
